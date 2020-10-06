@@ -2,8 +2,6 @@ import React from "react";
 import { MDBDataTableV5 } from "mdbreact";
 
 export default function Table() {
-  // eslint-disable-next-line no-use-before-define
-  setDatatable(null);
   const [datatable, setDatatable] = React.useState({
     columns: [
       {
